@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome do Projeto</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para um arquivo CSS externo -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+        .content {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Nome do Projeto</h1>
+            <p>Descrição breve do projeto.</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#como-usar">Como Usar</a></li>
+                <li><a href="#contribuir">Como Contribuir</a></li>
+                <li><a href="#licenca">Licença</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <section id="sobre">
+                <h2>Sobre</h2>
+                <p>Este projeto é um [tipo de projeto] que visa [objetivo principal]. Ele foi desenvolvido para [informações adicionais sobre o projeto].</p>
+            </section>
+
+            <section id="como-usar">
+                <h2>Como Usar</h2>
+                <p>Para usar este projeto, siga os passos abaixo:</p>
+                <ol>
+                    <li>Clone o repositório: <code>git clone https://github.com/seu-usuario/nome-do-projeto.git</code></li>
+                    <li>Instale as dependências: <code>npm install</code></li>
+                    <li>Execute o projeto: <code>npm start</code></li>
+                </ol>
+            </section>
+
+            <section id="contribuir">
+                <h2>Como Contribuir</h2>
+                <p>Contribuições são bem-vindas! Sinta-se à vontade para abrir um issue ou enviar um pull request.</p>
+            </section>
+
+            <section id="licenca">
+                <h2>Licença</h2>
+                <p>Este projeto está licenciado sob a <a href="https://opensource.org/licenses/MIT">Licença MIT</a>.</p>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Nome do Projeto. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
